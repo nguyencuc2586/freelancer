@@ -1,0 +1,424 @@
+  [1m[35m (2.4ms)[0m  [1m[35mCREATE DATABASE "freelancer_development" ENCODING = 'unicode'[0m
+  [1m[35m (0.3ms)[0m  [1m[35mCREATE DATABASE "freelancer_test" ENCODING = 'unicode'[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (2.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT pg_try_advisory_lock(4102013036826193125)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (2.2ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_advisory_unlock(4102013036826193125)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/" for ::1 at 2022-11-28 15:45:39 +0700
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/anhbui/.rvm/gems/ruby-3.1.2/gems/railties-7.0.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/anhbui/.rvm/gems/ruby-3.1.2/gems/railties-7.0.4/lib/rails/templates/rails/welcome/index.html.erb (Duration: 1.1ms | Allocations: 635)
+Completed 200 OK in 9ms (Views: 3.5ms | ActiveRecord: 0.0ms | Allocations: 5084)
+
+
+Started GET "/" for ::1 at 2022-11-28 16:10:06 +0700
+  [1m[36mActiveRecord::SchemaMigration Pluck (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering vendor/bundle/ruby/3.1.0/gems/railties-7.0.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered vendor/bundle/ruby/3.1.0/gems/railties-7.0.4/lib/rails/templates/rails/welcome/index.html.erb (Duration: 1.0ms | Allocations: 636)
+Completed 200 OK in 9ms (Views: 3.7ms | ActiveRecord: 0.0ms | Allocations: 5101)
+
+
+Started GET "/pages/home" for ::1 at 2022-11-28 16:11:47 +0700
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.4ms | Allocations: 334)
+  Rendered layout layouts/application.html.erb (Duration: 123.1ms | Allocations: 73449)
+Completed 200 OK in 127ms (Views: 124.3ms | ActiveRecord: 0.0ms | Allocations: 76830)
+
+
+Started GET "/pages/home" for ::1 at 2022-11-28 16:20:55 +0700
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 9)
+  Rendered layout layouts/application.html.erb (Duration: 5.0ms | Allocations: 1284)
+Completed 200 OK in 7ms (Views: 6.0ms | Allocations: 1592)
+
+
+Started GET "/pages/home" for ::1 at 2022-11-28 16:21:05 +0700
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 1.4ms | Allocations: 130)
+  Rendered layout layouts/application.html.erb (Duration: 6.3ms | Allocations: 1678)
+Completed 200 OK in 10ms (Views: 8.9ms | Allocations: 2513)
+
+
+Started GET "/pages/home" for ::1 at 2022-11-28 16:21:21 +0700
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 1.6ms | Allocations: 124)
+  Rendered layout layouts/application.html.erb (Duration: 5.9ms | Allocations: 1743)
+Completed 200 OK in 11ms (Views: 9.3ms | Allocations: 2565)
+
+
+Started GET "/pages/home" for ::1 at 2022-11-28 16:23:45 +0700
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.9ms | Allocations: 124)
+  Rendered layout layouts/application.html.erb (Duration: 5.6ms | Allocations: 1785)
+Completed 200 OK in 10ms (Views: 8.3ms | Allocations: 2607)
+
+
+Started GET "/pages/home" for ::1 at 2022-11-28 16:39:26 +0700
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 1.0ms | Allocations: 124)
+[Webpacker] Compiling...
+Started GET "/pages/home" for ::1 at 2022-11-28 16:39:27 +0700
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /Users/anhbui/Desktop/Rails/freelancer/public/packs
+[Webpacker] warning package.json: No license field
+
+[Webpacker] Hash: 7902024e23370105051b
+Version: webpack 4.46.0
+Time: 373ms
+Built at: 11/28/2022 4:39:27 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-8248dcee8bcc81ccff55.js   4.72 KiB  application  [emitted] [immutable]  application
+js/application-8248dcee8bcc81ccff55.js.map   4.51 KiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-8248dcee8bcc81ccff55.js js/application-8248dcee8bcc81ccff55.js.map
+[./app/javascript/packs/application.js] 847 bytes {application} [built]
+
+  Rendered layout layouts/application.html.erb (Duration: 1585.8ms | Allocations: 9441)
+Completed 200 OK in 1590ms (Views: 1588.4ms | Allocations: 10264)
+
+
+Started GET "/pages/home" for ::1 at 2022-11-28 16:39:27 +0700
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 2.6ms | Allocations: 3132)
+Completed 200 OK in 3ms (Views: 2.8ms | Allocations: 3376)
+
+
+[Webpacker] Compiled all packs in /Users/anhbui/Desktop/Rails/freelancer/public/packs
+[Webpacker] warning package.json: No license field
+
+[Webpacker] Hash: 7902024e23370105051b
+Version: webpack 4.46.0
+Time: 206ms
+Built at: 11/28/2022 4:39:28 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-8248dcee8bcc81ccff55.js   4.72 KiB  application  [emitted] [immutable]  application
+js/application-8248dcee8bcc81ccff55.js.map   4.51 KiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-8248dcee8bcc81ccff55.js js/application-8248dcee8bcc81ccff55.js.map
+[./app/javascript/packs/application.js] 847 bytes {application} [built]
+
+  Rendered layout layouts/application.html.erb (Duration: 907.0ms | Allocations: 11316)
+Completed 200 OK in 908ms (Views: 907.3ms | Allocations: 11581)
+
+
+Started GET "/pages/home" for ::1 at 2022-11-28 16:39:28 +0700
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 25.4ms | Allocations: 3126)
+Completed 200 OK in 27ms (Views: 26.0ms | Allocations: 3370)
+
+
+Started GET "/pages/home" for ::1 at 2022-11-28 16:39:28 +0700
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 30.7ms | Allocations: 3158)
+Completed 200 OK in 32ms (Views: 31.2ms | Allocations: 3402)
+
+
+Started GET "/pages/home" for ::1 at 2022-11-28 16:39:29 +0700
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 7.2ms | Allocations: 3154)
+Completed 200 OK in 9ms (Views: 7.7ms | Allocations: 3404)
+
+
+Started GET "/pages/home" for ::1 at 2022-11-28 16:39:30 +0700
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 11.5ms | Allocations: 3140)
+Completed 200 OK in 13ms (Views: 12.2ms | Allocations: 3385)
+
+
+Started GET "/pages/home" for ::1 at 2022-11-28 16:39:30 +0700
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 7.7ms | Allocations: 3147)
+Completed 200 OK in 9ms (Views: 8.4ms | Allocations: 3392)
+
+
+Started GET "/pages/home" for ::1 at 2022-11-28 16:39:31 +0700
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 7.3ms | Allocations: 3147)
+Completed 200 OK in 9ms (Views: 8.0ms | Allocations: 3391)
+
+
+Started GET "/pages/home" for ::1 at 2022-11-28 16:47:34 +0700
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.8ms | Allocations: 127)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 10.4ms | Allocations: 3825)
+Completed 200 OK in 15ms (Views: 13.0ms | Allocations: 4629)
+
+
+Started GET "/pages/home" for ::1 at 2022-11-28 16:47:35 +0700
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 7.8ms | Allocations: 3153)
+Completed 200 OK in 9ms (Views: 8.6ms | Allocations: 3415)
+
+
+Started GET "/pages/home" for ::1 at 2022-11-28 16:47:36 +0700
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 7.1ms | Allocations: 3159)
+Completed 200 OK in 9ms (Views: 7.8ms | Allocations: 3403)
+
+
+Started GET "/pages/home" for ::1 at 2022-11-28 19:30:09 +0700
+  [1m[36mActiveRecord::SchemaMigration Pluck (2.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.4ms | Allocations: 334)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 116.2ms | Allocations: 76879)
+Completed 200 OK in 120ms (Views: 117.5ms | ActiveRecord: 0.0ms | Allocations: 80260)
+
+
+Started GET "/pages/home" for ::1 at 2022-11-28 19:30:20 +0700
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 9)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 8.8ms | Allocations: 3251)
+Completed 200 OK in 10ms (Views: 9.5ms | ActiveRecord: 0.0ms | Allocations: 3564)
+
+
+Started GET "/pages/home" for ::1 at 2022-11-28 19:30:21 +0700
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 8.5ms | Allocations: 3181)
+Completed 200 OK in 10ms (Views: 9.3ms | ActiveRecord: 0.0ms | Allocations: 3432)
+
+
+Started GET "/pages/home" for ::1 at 2022-11-28 19:30:22 +0700
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 7.2ms | Allocations: 3173)
+Completed 200 OK in 9ms (Views: 7.8ms | ActiveRecord: 0.0ms | Allocations: 3424)
+
+
+Started GET "/pages/home" for ::1 at 2022-11-28 19:38:15 +0700
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.4ms | Allocations: 334)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 15.3ms | Allocations: 25544)
+Completed 200 OK in 19ms (Views: 16.4ms | ActiveRecord: 0.0ms | Allocations: 28926)
+
+
+Started GET "/pages/home" for ::1 at 2022-11-28 19:52:25 +0700
+  [1m[36mActiveRecord::SchemaMigration Pluck (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.4ms | Allocations: 334)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 15.5ms | Allocations: 25682)
+Completed 200 OK in 19ms (Views: 16.6ms | ActiveRecord: 0.0ms | Allocations: 29064)
+
+
+Started GET "/pages/home" for ::1 at 2022-11-28 20:02:35 +0700
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.4ms | Allocations: 334)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 23.0ms | Allocations: 29949)
+Completed 200 OK in 27ms (Views: 24.1ms | ActiveRecord: 0.0ms | Allocations: 33330)
+
+
+Started GET "/pages/home" for ::1 at 2022-11-28 20:21:28 +0700
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.4ms | Allocations: 334)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 0.2ms | Allocations: 98)
+  Rendered layout layouts/application.html.erb (Duration: 16.2ms | Allocations: 25872)
+Completed 200 OK in 20ms (Views: 17.3ms | ActiveRecord: 0.0ms | Allocations: 29249)
+
+
+Started GET "/pages/home" for ::1 at 2022-11-28 20:25:40 +0700
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.8ms | Allocations: 124)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 10.0ms | Allocations: 3856)
+Completed 200 OK in 14ms (Views: 12.3ms | ActiveRecord: 0.0ms | Allocations: 4731)
+
+
+Started GET "/pages/home" for ::1 at 2022-11-28 20:27:12 +0700
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.8ms | Allocations: 124)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 31.2ms | Allocations: 12832)
+Completed 500 Internal Server Error in 35ms (ActiveRecord: 0.0ms | Allocations: 13666)
+
+
+  
+ActionView::Template::Error (Missing partial shared/__navbar with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}.
+
+Searched in:
+  * "/Users/anhbui/Desktop/Rails/freelancer/app/views"
+  * "/Users/anhbui/Desktop/Rails/freelancer/vendor/bundle/ruby/3.1.0/gems/actiontext-7.0.4/app/views"
+  * "/Users/anhbui/Desktop/Rails/freelancer/vendor/bundle/ruby/3.1.0/gems/actionmailbox-7.0.4/app/views"
+
+Did you mean?  shared/navbar
+               action_text/attachables/missing_attachable
+               active_storage/blobs/blob
+               action_text/contents/content
+               action_text/attachment_galleries/attachment_gallery
+               action_text/attachables/remote_image):
+    11:   </head>
+    12: 
+    13:   <body>
+    14:    <%= render "shared/_navbar" %>
+    15:    <%= yield %>
+    16:   </body>
+    17: </html>
+  
+app/views/layouts/application.html.erb:14
+Started GET "/pages/home" for ::1 at 2022-11-28 20:27:25 +0700
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.6ms | Allocations: 124)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 0.4ms | Allocations: 93)
+  Rendered layout layouts/application.html.erb (Duration: 10.5ms | Allocations: 4007)
+Completed 200 OK in 14ms (Views: 13.0ms | ActiveRecord: 0.0ms | Allocations: 4846)
+
+
+Started GET "/pages/home" for ::1 at 2022-11-28 20:27:54 +0700
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 1.0ms | Allocations: 124)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 15.3ms | Allocations: 5269)
+Completed 500 Internal Server Error in 19ms (Allocations: 6063)
+
+
+  
+ActionView::Template::Error (Missing partial shared/_navbar with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}.
+
+Searched in:
+  * "/Users/anhbui/Desktop/Rails/freelancer/app/views"
+  * "/Users/anhbui/Desktop/Rails/freelancer/vendor/bundle/ruby/3.1.0/gems/actiontext-7.0.4/app/views"
+  * "/Users/anhbui/Desktop/Rails/freelancer/vendor/bundle/ruby/3.1.0/gems/actionmailbox-7.0.4/app/views"
+
+Did you mean?  action_text/attachables/missing_attachable
+               active_storage/blobs/blob
+               action_text/contents/content
+               action_text/attachment_galleries/attachment_gallery
+               layouts/action_text/contents/content
+               action_text/attachables/remote_image):
+    11:   </head>
+    12: 
+    13:   <body>
+    14:    <%= render "shared/navbar" %>
+    15:    <%= yield %>
+    16:   </body>
+    17: </html>
+  
+app/views/layouts/application.html.erb:14
+Started GET "/pages/home" for ::1 at 2022-11-28 20:28:27 +0700
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.9ms | Allocations: 124)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 0.5ms | Allocations: 93)
+  Rendered layout layouts/application.html.erb (Duration: 11.6ms | Allocations: 3993)
+Completed 200 OK in 19ms (Views: 17.6ms | Allocations: 4809)
+
+
+Started GET "/pages/home" for ::1 at 2022-11-28 20:46:32 +0700
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 1.0ms | Allocations: 127)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 12.7ms | Allocations: 3852)
+Completed 200 OK in 23ms (Views: 20.6ms | Allocations: 4674)
+
+
+Started GET "/pages/home" for ::1 at 2022-11-28 20:50:31 +0700
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.8ms | Allocations: 124)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_navbar.html.erb (Duration: 0.6ms | Allocations: 93)
+  Rendered layout layouts/application.html.erb (Duration: 11.9ms | Allocations: 4001)
+Completed 200 OK in 17ms (Views: 15.7ms | Allocations: 4832)
+
+
